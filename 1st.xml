@@ -1,9 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="75" x="278" y="66">
-    <next>
-      <block type="multimedia_playwav" id="94">
-        <field name="WAV">horn</field>
-      </block>
-    </next>
-  </block>
+  <block type="movement_reverse" id="75" x="278" y="66"></block>
 </xml>
