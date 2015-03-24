@@ -1,28 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="323" y="180">
+  <block type="movement_reverse" id="75" x="278" y="66">
     <next>
-      <block type="robot_delay" id="21" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="34">
-            <field name="NUM">2000</field>
-          </block>
-        </value>
-        <next>
-          <block type="movement_reverse" id="54">
-            <next>
-              <block type="robot_delay" id="64" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="65">
-                    <field name="NUM">2000</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="movement_stop" id="44"></block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
+      <block type="multimedia_playwav" id="94">
+        <field name="WAV">horn</field>
       </block>
     </next>
   </block>
